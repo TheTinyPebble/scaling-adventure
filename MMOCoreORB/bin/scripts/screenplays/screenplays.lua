@@ -675,3 +675,8 @@ includeFile("events/ServerEventAutomation.lua")
 
 -- Custom content - Loads last to allow for overrides
 includeFile("../custom_scripts/screenplays/screenplays.lua")
+
+-- Vendors
+includeFile("vendor/vendor_logic.lua")
+includeFile("vendor/vendor_data.lua")
+includeFile("vendor/vendor_conv_handler.lua")
